@@ -1,12 +1,14 @@
 # C-Project
 
-Project Description
+**Project Description**
 BasketBoss++ is a C++-based portfolio analysis tool that assists investors in analyzing a basket of stocks within a given budget. The application will offer both quantitative analysis and strategic insights for potential trading decisions. By leveraging multiple strategies, the tool will calculate key metrics and generate signals for optimal investment positions. The project’s core functionality will be organized into two main components:
 
-Analysis & Metrics
-Trading Strategies & Signals
-1. Analysis & Metrics
-A. Fundamental Analysis: Perform in-depth analysis of the fundamental attributes of each company, including earnings, revenue trends, debt-to-equity ratios, and valuation metrics such as the Price-to-Earnings (P/E) ratio. This type of analysis is critical for long-term investment planning.
+_Analysis & Metrics
+Trading Strategies & Signals_
+
+
+**1. Analysis & Metrics**
+_A. Fundamental Analysis:_ Perform in-depth analysis of the fundamental attributes of each company, including earnings, revenue trends, debt-to-equity ratios, and valuation metrics such as the Price-to-Earnings (P/E) ratio. This type of analysis is critical for long-term investment planning.
 
 Functionalities:
 
@@ -17,17 +19,17 @@ Associated Code: fundamental_analysis.cpp
 
 External Libraries: Third-party APIs such as Yahoo Finance API or RapidAPI for data gathering.
 
-B. Historical Performance: Analyze the historical performance of the stocks in the portfolio, focusing on metrics like historical returns, volatility, and drawdowns to determine how these stocks have reacted to different market conditions in the past.
+_B. Historical Performance:_ Analyze the historical performance of the stocks in the portfolio, focusing on metrics like historical returns, volatility, and drawdowns to determine how these stocks have reacted to different market conditions in the past.
 
 Functionalities:
 
-Historical Data Processing: Use data structures like vectors and matrices to calculate past returns, volatility, and maximum drawdowns.
+_Historical Data Processing:_ Use data structures like vectors and matrices to calculate past returns, volatility, and maximum drawdowns.
 Portfolio Optimization: With a set budget, create an optimized portfolio using Mean-Variance analysis to develop an efficient frontier, maximizing the Sharpe ratio. Libraries like Armadillo for matrix operations can be integrated.
 Associated Code: historical_analysis_optimization.cpp
 
 External Libraries: Integration with C++ optimization libraries such as Armadillo or custom algorithms for portfolio analysis.
 
-C. Correlation and Diversification: Analyze correlations between the stocks to evaluate diversification within the portfolio. High correlation indicates reduced benefits of diversification, and a well-constructed portfolio should aim to minimize this correlation.
+_C. Correlation and Diversification:_ Analyze correlations between the stocks to evaluate diversification within the portfolio. High correlation indicates reduced benefits of diversification, and a well-constructed portfolio should aim to minimize this correlation.
 
 Functionalities:
 
@@ -37,8 +39,8 @@ Associated Code: correlation_analysis.cpp
 
 External Libraries: Polygon.io API and C++ plotting libraries.
 
-2. Trading Strategies & Signals
-A. Technical Analysis: Analyze stock price movements using technical indicators such as Moving Averages (MA), Relative Strength Index (RSI), and Volume-Weighted Average Price (VWAP). This will aid in identifying buy/sell signals for better timing.
+**2. Trading Strategies & Signals**
+_A. Technical Analysis:_ Analyze stock price movements using technical indicators such as Moving Averages (MA), Relative Strength Index (RSI), and Volume-Weighted Average Price (VWAP). This will aid in identifying buy/sell signals for better timing.
 
 Functionalities:
 
@@ -46,7 +48,7 @@ Moving Average Calculation: Calculate a 20-day moving average on stock prices us
 Visualization: Plot the moving average on the price chart using C++ visualization libraries.
 References: Moving Average Guide
 
-B. Economic Indicators: Evaluate the impact of broader economic factors such as interest rates and inflation on stock performance. Understanding macroeconomic trends is vital for making informed investment decisions.
+_B. Economic Indicators:_ Evaluate the impact of broader economic factors such as interest rates and inflation on stock performance. Understanding macroeconomic trends is vital for making informed investment decisions.
 
 Functionalities:
 
@@ -56,7 +58,7 @@ Associated Code: economic_indicators.cpp
 
 External Libraries: FRED Economic Data
 
-C. News and Sentiment Analysis: Incorporate sentiment analysis to gauge the impact of recent news and social media chatter on stock price movements. Understanding public sentiment can be beneficial for short-term trading decisions.
+_C. News and Sentiment Analysis:_ Incorporate sentiment analysis to gauge the impact of recent news and social media chatter on stock price movements. Understanding public sentiment can be beneficial for short-term trading decisions.
 
 Functionalities:
 
