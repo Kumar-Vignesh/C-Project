@@ -68,7 +68,9 @@ Associated Code: sentiment_analysis.cpp
 
 External Libraries: VADER Sentiment Analysis API
 
-Future Enhancements
+
+
+**Future Enhancements**
 Refactor stock data and settings into configuration files for ease of use and flexibility.
 Implement a robust risk management module to assess and mitigate portfolio risk, ensuring alignment with investment goals and risk tolerance.
 Build a driver script to manage API invocations, starting with static requests and later moving to real-time streaming for dynamic portfolio updates.
