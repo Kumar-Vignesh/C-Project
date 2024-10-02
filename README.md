@@ -3,14 +3,20 @@
 **Project Description**
 BasketBoss++ is a C++-based portfolio analysis tool that assists investors in analyzing a basket of stocks within a given budget. The application will offer both quantitative analysis and strategic insights for potential trading decisions. By leveraging multiple strategies, the tool will calculate key metrics and generate signals for optimal investment positions. The project’s core functionality will be organized into two main components:
 
+
+
 _Analysis & Metrics
 Trading Strategies & Signals_
 
 
+
 **1. Analysis & Metrics**
+
 _A. Fundamental Analysis:_ Perform in-depth analysis of the fundamental attributes of each company, including earnings, revenue trends, debt-to-equity ratios, and valuation metrics such as the Price-to-Earnings (P/E) ratio. This type of analysis is critical for long-term investment planning.
 
+
 Functionalities:
+
 
 Data Retrieval: Utilize external data sources to obtain stock information and retrieve fundamental financial metrics for analysis.
 Data Processing: Employ C++ data structures and libraries (such as Boost or custom-built classes) to process the retrieved data. Key financial ratios and metrics will be computed to assess the overall financial health of companies.
@@ -39,7 +45,10 @@ Associated Code: correlation_analysis.cpp
 
 External Libraries: Polygon.io API and C++ plotting libraries.
 
+
+
 **2. Trading Strategies & Signals**
+
 _A. Technical Analysis:_ Analyze stock price movements using technical indicators such as Moving Averages (MA), Relative Strength Index (RSI), and Volume-Weighted Average Price (VWAP). This will aid in identifying buy/sell signals for better timing.
 
 Functionalities:
